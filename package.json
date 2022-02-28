@@ -1,0 +1,17 @@
+{
+  "name": "gmail-app",
+  "version": "1.1.4",
+  "description": "Google's email but in aternoscom",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --linux snap"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.7",
+    "electron-builder": "^22.14.5"
+  }
+}
