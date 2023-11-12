@@ -1,14 +1,21 @@
 {
   "name": "gmail-app",
-  "version": "1.1.4",
-  "description": "Google's email but in aternoscom",
-  "main": "src/index.js",
+  "version": "1.1.5",
+  "description": "Google's email but in a desktop version.",
+  "main": "./index.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder --linux snap"
+    "build": "electron-builder",
+    "build-snap": "electron-builder --linux snap"
+  },
+  "build": {
+    "icon": "./assets/icon.png"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Samuel Pedrera",
+    "email": "samuelpedrera7@gmail.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "electron": "^16.0.7",
