@@ -1,0 +1,13 @@
+name: gmail-app
+version: '2.0.0'
+summary: Desktop gamil.
+description: |
+  Google's gmail bit in a desktop version.
+
+grade: stable
+confinement: strict
+
+apps:
+  gmail-app:
+    command: gmail-app
+    icon: ../assets/icon.png
